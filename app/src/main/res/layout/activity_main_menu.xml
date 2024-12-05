@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_bienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido al juego de memorama"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/white"
+        android:padding="8dp"/>
+
+
+    <ImageView
+        android:id="@+id/widget_solo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/usuario1"
+        android:contentDescription="Modo un jugador"
+        android:layout_below="@id/tv_bienvenida"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/widget_border"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+    <ImageView
+        android:id="@+id/widget_dos"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/usuario2"
+        android:contentDescription="Modo dos jugadores"
+        android:layout_below="@id/widget_solo"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/widget_border"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true" />
+</RelativeLayout>

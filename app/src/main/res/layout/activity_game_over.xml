@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo3">
+
+    <TextView
+        android:id="@+id/tv_final_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Juego Terminado!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="44dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/final_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Puntaje Final: 0"
+        android:layout_marginLeft="70dp"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_remaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo Restante: 0s"
+        android:layout_marginLeft="75dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:gravity="center" />
+
+    <!-- Botón para regresar al inicio -->
+    <Button
+        android:id="@+id/btn_go_home"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:text="Regresar al inicio"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFF"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Botón para volver a jugar -->
+    <Button
+        android:id="@+id/btn_play_again"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Jugar de nuevo"
+        android:textColor="#FFF" />
+
+</LinearLayout>

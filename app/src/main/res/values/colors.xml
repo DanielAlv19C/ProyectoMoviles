@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorFondoCartas">#FFEBEE</color>
+    <color name="colorFondoLayout">#1B5E20</color><!-- Fondo del tablero -->
+    <color name="colorAccent">#FF4081</color> <!-- Textos de marcador y tiempo -->
+    <color name="colorPrimary">#FFC107</color> <!-- boton de reinicio -->
+    <color name="colorCartaSeleccionada">#FF7043</color>
+    <color name="colorJugador1">#AECBFA</color>
+    <color name="colorJugador2">#F28B82</color>
+    <color name="colorVerdeMenta">#A7F3D0</color>
+    <color name="colorFondoR">#A1B3C1</color>
+    <color name="buttonColor">#009688</color>
+    <color name="primaryColor">#FF5722</color>
+    <color name="ORANGE">#f5b041</color>
+    <color name="PINK">#f0a0ea</color>
+    <color name="secondaryColor">#3F51B5</color>
+    <color name="backgroundColor">#FAF3E0</color>
+
+
+</resources>

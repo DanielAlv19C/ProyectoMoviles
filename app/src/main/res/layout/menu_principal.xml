@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:padding="16dp">
+
+    <!-- Titulo de la aplicación -->
+    <TextView
+        android:id="@+id/tvTituloApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English for Little Stars"
+        android:textSize="24sp"
+        android:textColor="#2C3E50"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Logo de la aplicación -->
+    <ImageView
+        android:id="@+id/logoApp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:contentDescription="Logo de la aplicación"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvTituloApp"
+         />
+
+    <!-- GridLayout para los iconos -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoApp"
+        android:layout_marginTop="50dp"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true">
+
+    <!-- Primer ImageView -->
+    <ImageView
+        android:id="@+id/widget_soloM"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icono_memorama"
+        android:contentDescription="Modo un jugador"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center"
+        android:background="@drawable/widget_border"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="startMemorama"/>
+
+    <!-- Segundo ImageView -->
+    <ImageView
+        android:id="@+id/widget_dosC"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icono_colores"
+        android:contentDescription="Modo dos jugadores"
+        android:layout_gravity="center"
+        android:background="@drawable/widget_border"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="startJuego2"/>
+
+    <!-- Tercer ImageView -->
+    <ImageView
+        android:id="@+id/widget_tresQ"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icono_quiz"
+        android:contentDescription="Modo quiz"
+        android:layout_gravity="center"
+        android:background="@drawable/widget_border"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="startJuego3"/>
+
+    <!-- Cuarto ImageView -->
+    <ImageView
+        android:id="@+id/widget_cuatroS"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sensor2"
+        android:contentDescription="Modo sensor"
+        android:layout_gravity="center"
+        android:background="@drawable/widget_border"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="startJuego4"/>
+</GridLayout>
+
+    </RelativeLayout>

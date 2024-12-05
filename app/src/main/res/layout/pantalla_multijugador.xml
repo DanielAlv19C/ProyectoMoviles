@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingTop="32dp"
+    android:paddingBottom="32dp"
+    android:background="@color/colorVerdeMenta">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memorama de frutas para dos jugadores"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/editJugador1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre o apodo del jugador 1"
+        android:inputType="textPersonName"
+
+        android:padding="16dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editJugador2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre o apodo del jugador 2"
+        android:inputType="textPersonName"
+
+        android:padding="16dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Juego"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"
+        android:paddingTop="16dp"
+    android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonViewData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registros partidas"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"
+        android:paddingTop="16dp"
+    android:paddingBottom="16dp"/>
+</LinearLayout>

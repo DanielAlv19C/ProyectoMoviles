@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is this in English?"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/answerLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple"
+        android:textSize="20sp"
+        android:layout_below="@id/questionText"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/answerRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banana"
+        android:textSize="20sp"
+        android:layout_below="@id/questionText"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>
